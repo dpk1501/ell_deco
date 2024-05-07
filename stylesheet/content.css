@@ -1,0 +1,534 @@
+html, body {
+    overflow-x: hidden;
+    font-size: 32vw;
+    background: #00171C;
+    font-family: "Open Sans", sans-serif;
+
+    scroll-behavior: smooth;
+}
+
+#block_1 {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.menubox {
+    position: relative;
+    flex-wrap: wrap;
+
+    display: flex;
+}
+
+.menubox h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modelling_and_sculpting {
+    color: #CDC8BC;
+    font-size: 2vw;
+    font-weight: 400;
+    margin-left: 10vw;
+
+}
+
+.line1 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 7vw;
+    height: 0.2vw;
+    position: absolute;
+    margin-top: 4.5vw;
+    margin-left: 0;
+    z-index: 2;
+}
+
+.line2 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 10vw;
+    height: 0.2vw;
+    position: absolute;
+    margin-top: 4.5vw;
+    margin-left: 36vw;
+    z-index: 2;
+}
+
+.line3 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 10vw;
+    height: 0.2vw;
+    position: absolute;
+    margin-top: 4.5vw;
+    margin-left: 63vw;
+    z-index: 2;
+}
+
+.line3 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 10vw;
+    height: 0.2vw;
+    position: absolute;
+    margin-top: 4.5vw;
+    margin-left: 63vw;
+    z-index: 2;
+}
+
+.line4 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 10vw;
+    height: 0.2vw;
+    position: absolute;
+    margin-top: 4.5vw;
+    margin-left: 90vw;
+    z-index: 2;
+}
+
+.about {
+    margin-top: 3vw;
+    color: #CDC8BC;
+    font-size: 2vw;
+    font-weight: 400;
+
+    margin-left: 20vw;
+}
+
+.about a {
+    text-decoration: none;
+    color: #CDC8BC;
+}
+
+.contacts {
+    margin-top: 3vw;
+    color: #CDC8BC;
+    font-size: 2vw;
+    font-weight: 400;
+
+    margin-left: 20vw;
+}
+
+.logo {
+    background: url('../images/logo.webp');
+    background-size: 100% 100%;
+    width: 30vw;
+    height: 25vw;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 34vw;
+    z-index: 2;
+}
+.lines {
+    background: url('../images/lines.webp');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1vw;
+    position: relative;
+    margin-top: 1vw;
+    z-index: 1;
+}
+
+.blue_line {
+    background: url('../images/blue_line.webp');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 0.4vw;
+    position: absolute;
+    margin-top: 40vw;
+    z-index: 2;
+}
+
+.menubox2 {
+    position: absolute;
+    flex-wrap: wrap;
+    margin-top: 41vw;
+
+    display: flex;
+    z-index: 2;
+}
+
+.menubox2 h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sculpting {
+    margin-top: 3vw;
+    color: #CDC8BC;
+    font-size: 2vw;
+    font-weight: 400;
+
+    margin-left: 13vw;
+}
+
+.sculpting a {
+    text-decoration: none;
+    color: #CDC8BC;
+}
+
+.models {
+    margin-top: 3vw;
+    color: #CDC8BC;
+    font-size: 2vw;
+    font-weight: 400;
+
+    margin-left: 18vw;
+}
+.video {
+    margin-top: 3vw;
+    color: #CDC8BC;
+    font-size: 2vw;
+    font-weight: 400;
+
+    margin-left: 22vw;
+}
+
+.line5 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 10vw;
+    height: 0.3vw;
+    position: absolute;
+    margin-top: 4.4vw;
+    margin-left: 0;
+    z-index: 2;
+}
+
+.line6 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 10vw;
+    height: 0.3vw;
+    position: absolute;
+    margin-top: 4.4vw;
+    margin-left: 27vw;
+    z-index: 2;
+}
+
+.line7 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 10vw;
+    height: 0.3vw;
+    position: absolute;
+    margin-top: 4.4vw;
+    margin-left: 58vw;
+    z-index: 2;
+}
+
+.line8 {
+    background: url('../images/line.webp');
+    background-size: 100% 100%;
+    width: 13vw;
+    height: 0.3vw;
+    position: absolute;
+    margin-top: 4.4vw;
+    margin-left: 87vw;
+    z-index: 2;
+}
+
+
+.image_background {
+    background: url('../images/center_image.webp');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    /* margin-top: 2vw; */
+    z-index: 1;
+}
+
+/* блок 2 */
+#block_2 {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+
+.blurred_line {
+    background: url('../images/blurred_line.webp');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1vw;
+    margin-top: 5vw;
+
+    z-index: 2;
+}
+
+.about_studio_text {
+    margin-top: 4vw;
+    width: 65vw;
+    color: #CDC8BC;
+    font-size: 3vw;
+    font-weight: 600;
+
+    z-index: 2;
+}
+
+.about_studio {
+    margin-top: 4vw;
+    width: 65vw;
+    color: #CDC8BC;
+    font-size: 2vw;
+    font-weight: 400;
+
+    margin-left: 10vw;
+    z-index: 2;
+}
+
+#block_3 {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.blurred_line1 {
+    background: url('../images/blurred_line.webp');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1vw;
+    margin-top: 10vw;
+
+    z-index: 2;
+}
+
+.projects {
+    margin-top: 7vw;
+    width: 65vw;
+    color: #CDC8BC;
+    font-size: 3vw;
+    font-weight: 600;
+
+    margin-left: 10vw;
+    z-index: 2;
+}
+
+.catalogue {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin-top: 7vw;
+}
+
+.catalogue1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin-top: 7vw;
+}
+
+.catalogue2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin-top: 7vw;
+}
+
+
+.image1 {
+    background: url('../images/image1.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image1:hover {
+    transform: scale(1.5); 
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    color: #CDC8BC;
+    font-size: .9vw;
+    font-weight: 400;
+}
+
+.description1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    color: #CDC8BC;
+    font-size: .9vw;
+    font-weight: 400;
+}
+
+.description2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    color: #CDC8BC;
+    font-size: .9vw;
+    font-weight: 400;
+}
+
+.image2 {
+    background: url('../images/image2.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image2:hover {
+    transform: scale(1.5); 
+}
+
+.image3 {
+    background: url('../images/image3.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image3:hover {
+    transform: scale(1.5); 
+}
+
+.image4 {
+    background: url('../images/image4.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image4:hover {
+    transform: scale(1.5); 
+}
+
+.image5 {
+    background: url('../images/image5.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image5:hover {
+    transform: scale(1.5); 
+}
+
+.image6 {
+    background: url('../images/image6.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image6:hover {
+    transform: scale(1.5); 
+}
+
+.image7 {
+    background: url('../images/image7.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image7:hover {
+    transform: scale(1.5); 
+}
+
+.image8 {
+    background: url('../images/image8.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image8:hover {
+    transform: scale(1.5); 
+}
+
+.image9 {
+    background: url('../images/image9.webp');
+    background-size: 100% 100%;
+    width: 25vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.image9:hover {
+    transform: scale(1.5); 
+}
+
+
+/* секция 3 */
+#block_3 {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+
+.blurred_line2 {
+    background: url('../images/blurred_line.webp');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 1vw;
+    margin-top: 5vw;
+
+    z-index: 2;
+}
+
+.sculpt_projects {
+    margin-top: 7vw;
+    width: 65vw;
+    color: #CDC8BC;
+    font-size: 3vw;
+    font-weight: 600;
+
+    margin-left: 10vw;
+    z-index: 2;
+}
+
+.sculpt_catalogue {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+    margin-top: 7vw;
+
+}
+
+.img1 {
+    background: url('../images/3dmodel.webp');
+    background-size: 100% 100%;
+    width: 47vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.img1:hover {
+    transform: scale(1.05); 
+}
+
+.img2 {
+    background: url('../images/3dmodel1.webp');
+    background-size: 100% 100%;
+    width: 47vw;
+    height: 35vw;
+    transition: all .2s ease-in-out;
+}
+
+.img2:hover {
+    transform: scale(1.05); 
+}
