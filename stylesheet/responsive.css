@@ -306,8 +306,9 @@ transform: none;
     z-index: 2;
 }
 
-.main_text {
-  margin-top: 3vw;
+.about_studio p{
+    margin-top: 4vw;
+    line-height: 3.5vw;
 }
 
 /* вторая секция */
