@@ -7,6 +7,10 @@ html, body {
     scroll-behavior: smooth;
 }
 
+body ul li {
+    margin-top: 1vw;
+    list-style: inside;
+}
 #block_1 {
     position: relative;
     width: 100%;
@@ -280,6 +284,11 @@ html, body {
     z-index: 2;
 }
 
+.main_text {
+    margin-top: 4vw;
+    line-height: 2.5vw;
+}
+
 #block_3 {
     position: relative;
     width: 100%;
@@ -307,23 +316,7 @@ html, body {
     z-index: 2;
 }
 
-.catalogue {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-
-    margin-top: 7vw;
-}
-
-.catalogue1 {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-
-    margin-top: 7vw;
-}
-
-.catalogue2 {
+.catalogue, .catalogue1, .catalogue2 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -332,7 +325,24 @@ html, body {
 }
 
 
-.image1 {
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9  {
+    width: 25vw;
+    height: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09 {
+    margin-top: 1vw;
+    text-align: center;
+    color: #CDC8BC;
+    font-size:  1.5vw;
+    font-weight: 400;
+  }
+
+  .image1 {
     background: url('../images/image1.webp');
     background-size: 100% 100%;
     width: 25vw;
@@ -344,17 +354,8 @@ html, body {
     transform: scale(1.5); 
 }
 
-.description {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-
-    color: #CDC8BC;
-    font-size: .9vw;
-    font-weight: 400;
-}
-
 .description1 {
+    margin-top: 1vw;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -365,6 +366,7 @@ html, body {
 }
 
 .description2 {
+    margin-top: 1vw;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
