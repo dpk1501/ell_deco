@@ -35,6 +35,8 @@ body ul li {
     font-weight: 400;
     margin-left: 10vw;
 
+    margin-top: 2vw;
+
 }
 
 .line1 {
@@ -254,10 +256,10 @@ body ul li {
 
 .line01 {
     position: absolute;
-    background: url('../images/line1.webp');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1)0%, rgba(0, 0, 0, 0)100%), url('../images/line1.webp');
     background-size: 100% 100%;
     width: 10vw;
-    height: 125vw;
+    height: 400vw;
     margin-top: -5.03vw;
     margin-left: 90vw;
 
@@ -266,10 +268,10 @@ body ul li {
 
 .line02 {
     position: absolute;
-    background: url('../images/lines2.webp');
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1)0%, rgba(0, 0, 0, 0)100%),url('../images/lines2.webp');
     background-size: 100% 100%;
     width: 10vw;
-    height: 125vw;
+    height: 400vw;
     margin-top: -5.3vw;
 
     z-index: 1;
@@ -286,7 +288,7 @@ body ul li {
 }
 
 .about_studio_text {
-    margin-top: 4vw;
+    margin-top: 5vw;
     width: 65vw;
     color: #CDC8BC;
     font-size: 3vw;
@@ -302,12 +304,12 @@ body ul li {
     font-size: 2vw;
     font-weight: 400;
 
-    margin-left: 10vw;
+    margin-left: 15vw;
     z-index: 2;
 }
 
-.main_text {
-    margin-top: 4vw;
+.about_studio p {
+    margin-top: 5vw;
     line-height: 2.5vw;
 }
 
@@ -334,22 +336,25 @@ body ul li {
     font-size: 3vw;
     font-weight: 600;
 
-    margin-left: 10vw;
+    margin-left: 15vw;
     z-index: 2;
 }
 
 .catalogue, .catalogue1, .catalogue2 {
+    z-index: 3;
+    width: 80vw;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-
+    align-items: center;
     margin-top: 7vw;
+    margin-left: 10vw;
 }
 
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9  {
-    width: 25vw;
-    height: 40vw;
+    width: 20vw;
+    height: 31vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -357,7 +362,7 @@ body ul li {
   }
   
   .description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09 {
-    margin-top: 1vw;
+    margin-top: 2vw;
     text-align: center;
     color: #CDC8BC;
     font-size:  1.5vw;
@@ -367,8 +372,8 @@ body ul li {
   .image1 {
     background: url('../images/image1.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -376,33 +381,11 @@ body ul li {
     transform: scale(1.5); 
 }
 
-.description1 {
-    margin-top: 1vw;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-
-    color: #CDC8BC;
-    font-size: .9vw;
-    font-weight: 400;
-}
-
-.description2 {
-    margin-top: 1vw;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-
-    color: #CDC8BC;
-    font-size: .9vw;
-    font-weight: 400;
-}
-
 .image2 {
     background: url('../images/image2.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -413,8 +396,8 @@ body ul li {
 .image3 {
     background: url('../images/image3.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -425,8 +408,8 @@ body ul li {
 .image4 {
     background: url('../images/image4.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -437,8 +420,8 @@ body ul li {
 .image5 {
     background: url('../images/image5.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -449,8 +432,8 @@ body ul li {
 .image6 {
     background: url('../images/image6.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -461,8 +444,8 @@ body ul li {
 .image7 {
     background: url('../images/image7.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -473,8 +456,8 @@ body ul li {
 .image8 {
     background: url('../images/image8.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -485,8 +468,8 @@ body ul li {
 .image9 {
     background: url('../images/image9.webp');
     background-size: 100% 100%;
-    width: 25vw;
-    height: 35vw;
+    width: 20vw;
+    height: 30vw;
     transition: all .2s ease-in-out;
 }
 
@@ -496,7 +479,7 @@ body ul li {
 
 
 /* секция 3 */
-#block_3 {
+#block_4 {
     position: relative;
     width: 100%;
     flex-shrink: 0;
@@ -520,7 +503,7 @@ body ul li {
     font-size: 3vw;
     font-weight: 600;
 
-    margin-left: 10vw;
+    margin-left: 15vw;
     z-index: 2;
 }
 
@@ -528,6 +511,8 @@ body ul li {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    width: 80vw;
+    margin-left: 10vw;
 
     margin-top: 7vw;
 
@@ -536,23 +521,23 @@ body ul li {
 .img1 {
     background: url('../images/3dmodel.webp');
     background-size: 100% 100%;
-    width: 47vw;
-    height: 35vw;
+    width: 38vw;
+    height: 28vw;
     transition: all .2s ease-in-out;
 }
 
 .img1:hover {
-    transform: scale(1.05); 
+    transform: scale(1.5); 
 }
 
 .img2 {
     background: url('../images/3dmodel1.webp');
     background-size: 100% 100%;
-    width: 47vw;
-    height: 35vw;
+    width: 38vw;
+    height: 28vw;
     transition: all .2s ease-in-out;
 }
 
 .img2:hover {
-    transform: scale(1.05); 
+    transform: scale(1.5); 
 }
