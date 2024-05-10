@@ -1,5 +1,5 @@
 html, body {
-    overflow-x: hidden;
+    overflow-x: initial;
     font-size: 32vw;
     background: #00171C;
     font-family: "Open Sans", sans-serif;
