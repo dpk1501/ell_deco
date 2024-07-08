@@ -108,6 +108,7 @@ body ul li {
     color: #CDC8BC;
 }
 
+
 .models a {
     text-decoration: none;
     color: #CDC8BC;
@@ -120,6 +121,16 @@ body ul li {
     font-weight: 400;
 
     margin-left: 20vw;
+}
+
+.contacts a {
+    text-decoration: none;
+    color: #CDC8BC;
+}
+
+.video a {
+    text-decoration: none;
+    color: #CDC8BC;
 }
 
 .logo {
@@ -564,7 +575,7 @@ body ul li {
     z-index: 2;
 }
 
-.sculpt_catalogue, .sculpt_catalogue1, .sculpt_catalogue2 {
+.sculpt_catalogue, .sculpt_catalogue1, .sculpt_catalogue2, .sculpt_catalogue01, .sculpt_catalogue02 {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -596,6 +607,54 @@ body ul li {
 }
 
 .img2:hover {
+    transform: scale(1.2); 
+}
+
+.img01 {
+    background: url('../images/fish_ship.webp');
+    background-size: 100% 100%;
+    width: 38vw;
+    height: 28vw;
+    transition: all .2s ease-in-out;
+}
+
+.img01:hover {
+    transform: scale(1.2); 
+}
+
+.img02 {
+    background: url('../images/render_bird_1.webp');
+    background-size: 100% 100%;
+    width: 38vw;
+    height: 28vw;
+    transition: all .2s ease-in-out;
+}
+
+.img02:hover {
+    transform: scale(1.2); 
+}
+
+.img03 {
+    background: url('../images/render_bird_2.webp');
+    background-size: 100% 100%;
+    width: 38vw;
+    height: 28vw;
+    transition: all .2s ease-in-out;
+}
+
+.img03:hover {
+    transform: scale(1.2); 
+}
+
+.img04 {
+    background: url('../images/render_bird_3.webp');
+    background-size: 100% 100%;
+    width: 38vw;
+    height: 28vw;
+    transition: all .2s ease-in-out;
+}
+
+.img04:hover {
     transform: scale(1.2); 
 }
 
@@ -659,8 +718,26 @@ body ul li {
     font-weight: 400;
 }
 
-/* контакты */
+/* видео */
 #block_5 {
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+
+    align-items: center;
+}
+
+#video {
+    position: relative;
+    width: 70vw;
+    height: 40vw;
+
+    margin-left: 15vw;
+    margin-top: 10vw;
+}
+
+/* контакты */
+#block_6 {
     position: relative;
     width: 100%;
     flex-shrink: 0;

@@ -92,19 +92,47 @@ margin-top: 7vw;
 
 }
 
-.img1, .img2 {
+.img1, .img2, .img01, .img02, .img03, .img04 {
 background-size: 100% 100%;
 width: 85vw;
 height: 60vw;
 transition: none;
 }
 
-.img1:hover, .img2:hover {
+.img1:hover, .img2:hover, .img01:hover, .img02:hover, .img03:hover, .img04:hover{
 transform: none;
 }
 
+.sculpt_catalogue1, .sculpt_catalogue2, .sculpt_catalogue01, .sculpt_catalogue02 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  margin-top: 7vw;
+  align-items: center;
+  gap: 8vw;
 }
-   
+
+.box3d1, .box3d2, .box3d3 {
+  width: 65vw;
+  height: 95vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  }
+  
+  .img3, .img4, .img5 {
+    background-size: 100% 100%;
+    width: 65vw;
+    height: 90vw;
+    transition: none;
+  }
+  .img3:hover, .img4:hover, .img5:hover {
+  transform: none; 
+  }
+  }
+
   /* экран для 834 */
   @media screen and (min-width: 414px) and (max-width: 834px) {
 
