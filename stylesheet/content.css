@@ -383,14 +383,14 @@ body ul li {
     margin-top: 2vw;
     text-align: center;
     color: #CDC8BC;
-    font-size:  1.5vw;
+    font-size:  1.2vw;
     font-weight: 400;
   }
 
   .image1 {
     background: url('../images/image1.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -402,7 +402,7 @@ body ul li {
 .image2 {
     background: url('../images/image2.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -414,7 +414,7 @@ body ul li {
 .image3 {
     background: url('../images/image3.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -426,7 +426,7 @@ body ul li {
 .image4 {
     background: url('../images/image4.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -438,7 +438,7 @@ body ul li {
 .image5 {
     background: url('../images/image5.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -450,7 +450,7 @@ body ul li {
 .image6 {
     background: url('../images/image6.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -462,7 +462,7 @@ body ul li {
 .image7 {
     background: url('../images/image7.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -474,7 +474,7 @@ body ul li {
 .image8 {
     background: url('../images/image8.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -486,7 +486,7 @@ body ul li {
 .image9 {
     background: url('../images/image9.webp');
     background-size: 100% 100%;
-    width: 20vw;
+    width: 18vw;
     height: 30vw;
     transition: all .2s ease-in-out;
 }
@@ -590,7 +590,7 @@ body ul li {
     background: url('../images/3dmodel.webp');
     background-size: 100% 100%;
     width: 38vw;
-    height: 28vw;
+    height: 26vw;
     transition: all .2s ease-in-out;
 }
 
@@ -602,7 +602,7 @@ body ul li {
     background: url('../images/3dmodel1.webp');
     background-size: 100% 100%;
     width: 38vw;
-    height: 28vw;
+    height: 26vw;
     transition: all .2s ease-in-out;
 }
 
@@ -614,7 +614,7 @@ body ul li {
     background: url('../images/fish_ship.webp');
     background-size: 100% 100%;
     width: 38vw;
-    height: 28vw;
+    height: 26vw;
     transition: all .2s ease-in-out;
 }
 
@@ -626,7 +626,7 @@ body ul li {
     background: url('../images/render_bird_1.webp');
     background-size: 100% 100%;
     width: 38vw;
-    height: 28vw;
+    height: 26vw;
     transition: all .2s ease-in-out;
 }
 
@@ -638,7 +638,7 @@ body ul li {
     background: url('../images/render_bird_2.webp');
     background-size: 100% 100%;
     width: 38vw;
-    height: 28vw;
+    height: 26vw;
     transition: all .2s ease-in-out;
 }
 
@@ -650,7 +650,7 @@ body ul li {
     background: url('../images/render_bird_3.webp');
     background-size: 100% 100%;
     width: 38vw;
-    height: 28vw;
+    height: 26vw;
     transition: all .2s ease-in-out;
 }
 
@@ -661,8 +661,8 @@ body ul li {
 .img3 {
     background: url('../images/3dmodel3.webp');
     background-size: 100% 100%;
-    width: 26vw;
-    height: 35vw;
+    width: 33vw;
+    height: 48vw;
     transition: all .2s ease-in-out;
 }
 
@@ -673,8 +673,8 @@ body ul li {
 .img4 {
     background: url('../images/3dmodel4.webp');
     background-size: 100% 100%;
-    width: 26vw;
-    height: 35vw;
+    width: 33vw;
+    height: 48vw;
     transition: all .2s ease-in-out;
 }
 
@@ -685,8 +685,8 @@ body ul li {
 .img5 {
     background: url('../images/3dmodel5.webp');
     background-size: 100% 100%;
-    width: 35vw;
-    height: 45vw;
+    width: 33vw;
+    height: 48vw;
     transition: all .2s ease-in-out;
 }
 
@@ -694,11 +694,23 @@ body ul li {
     transform: scale(1.2); 
 }
 
+.img6 {
+    background: url('../images/church.webp');
+    background-size: 100% 100%;
+    width: 33vw;
+    height: 48vw;
+    transition: all .2s ease-in-out;
+}
+
+.img6:hover {
+    transform: scale(1.2); 
+}
+
 .description_3d01 {
     margin-top: 2vw;
     text-align: center;
     color: #CDC8BC;
-    font-size:  1.5vw;
+    font-size:  1.2vw;
     font-weight: 400;
 }
 
@@ -706,7 +718,7 @@ body ul li {
     margin-top: 2vw;
     text-align: center;
     color: #CDC8BC;
-    font-size:  1.5vw;
+    font-size:  1.2vw;
     font-weight: 400;
 }
 
@@ -714,7 +726,15 @@ body ul li {
     margin-top: 2vw;
     text-align: center;
     color: #CDC8BC;
-    font-size:  1.5vw;
+    font-size:  1.2vw;
+    font-weight: 400;
+}
+
+.description_3d04 {
+    margin-top: 2vw;
+    text-align: center;
+    color: #CDC8BC;
+    font-size:  1.2vw;
     font-weight: 400;
 }
 
@@ -752,7 +772,7 @@ body ul li {
     background-size: 100% 100%;
     width: 100%;
     height: 1vw;
-    margin-top: 10vw;
+    margin-top: 5vw;
 
     z-index: 3;
 }
@@ -766,8 +786,8 @@ body ul li {
     flex-direction: column;
     width: 80vw;
 
-    margin-top: 10vw;
-    margin-bottom: 8vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 .box_0 {
@@ -808,13 +828,13 @@ body ul li {
 .number, .email {
     text-decoration: none;
     color: #CDC8BC;
-    font-size:  1.7vw;
+    font-size:  1.5vw;
     font-weight: 400;
 }
 
 .instagram, .telegram, .whatsapp, .youtube, .facebook {
-    width: 5vw;
-    height: 5vw;
+    width: 4vw;
+    height: 4vw;
 }
 
 .telegram {

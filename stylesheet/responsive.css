@@ -1,7 +1,18 @@
 /* экран для 1920 */
 @media screen and (min-width: 1440px) and (max-width: 1920px) {
-
+  
+  .sculpting, .contacts, .models, .video, .about, .modelling_and_sculpting {
+    font-size: 1.9vw;
   }
+    .about_studio_text, .projects, .sculpt_projects {
+      font-size: 2.5vw;
+  }
+
+      .about_studio {
+        font-size: 1.4vw;
+    }
+
+}
 
   /* экран для 1440 */
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
@@ -240,12 +251,12 @@ transform: none;
 
 .about_studio {
     margin-top: 10vw;
-    width: 80vw;
+    width: 70vw;
     color: #CDC8BC;
-    font-size: 3vw;
+    font-size: 2.8vw;
     font-weight: 400;
 
-    margin-left: 10vw;
+    margin-left: 14vw;
     z-index: 2;
 }
 
@@ -258,7 +269,7 @@ transform: none;
 .projects {
   font-size: 4vw;
 }
-.catalogue, .catalogue1, .catalogue2 {
+.catalogue, .catalogue1, .catalogue2, .catalogue3, .catalogue4 {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -268,7 +279,7 @@ transform: none;
     gap: 8vw;
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9 {
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13 {
   background-size: 100% 100%;
   width: 65vw;
   height: 90vw;
@@ -278,7 +289,7 @@ transform: none;
 transform: none; 
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9  {
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13  {
 width: 65vw;
 height: 95vw;
 display: flex;
@@ -287,7 +298,7 @@ align-items: center;
 flex-direction: column;
 }
 
-.description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09 {
+.description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09, .description10, .description11, .description12 {
 margin-top: 1vw;
 text-align: center;
 color: #CDC8BC;
