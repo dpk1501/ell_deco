@@ -238,7 +238,89 @@ transform: none;
   }
 /* экран для 414 */
 @media screen and (min-width: 320px) and (max-width: 414px) {
+
+  .hamburger-menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+  .links {
+      display: none;
+      position: absolute;
+      flex-wrap: wrap;
+      z-index: 3;
+    }
+  }
+  .lines1, .blue_line {
+    display: none;
+}
+
+  .logo {
+    background: url('../images/logo.webp');
+    background-size: 100% 100%;
+    width: 40vw;
+    height: 33vw;
+    position: absolute;
+    margin-top: 40vw;
+    margin-left: 30vw;
+    z-index: 2;
+  }
+
+  .image_background {
+    height: 90vw;
+  }
   
+  .modelling_and_sculpting {
+  display: none;
+  }
+
+  .about {
+    color: #CDC8BC;
+    font-size: 3.5vw;
+    font-weight: 400;
+
+    margin-left: 65vw;
+    margin-top: 5vw;
+}
+
+  .contacts {
+    position: relative;
+    margin-left: 65vw;
+
+    color: #CDC8BC;
+    font-size: 3.5vw;
+    margin-top: 4vw;
+    z-index: 3;
+  }
+
+  .shadow {
+    position: absolute;
+    width: 25vw;
+    height: 35vw;
+    z-index: 2;
+    background-color: #2F4F4F;
+    opacity: 0.5;
+
+    margin-left: 62vw;
+    margin-top: 3vw;
+  }
+.menubox2 {
+  position: absolute;
+  flex-wrap: wrap;
+  margin-top: 1vw;
+
+
+  display: flex;
+  z-index: 2;
+}
+
+.sculpting, .models, .video {
+  font-size: 3.5vw;
+  margin-left: 65vw;
+}
+    
   .about_studio_text {
     margin-top: 4vw;
     width: 65vw;
@@ -327,5 +409,5 @@ transition: none;
 .img1:hover, .img2:hover {
 transform: none;
 }
-  }
+
   

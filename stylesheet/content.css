@@ -29,6 +29,54 @@ body ul li {
     cursor: pointer;
 }
 
+
+
+.hamburger-menu {
+    display: none;
+    width: 8vw;
+    height: 8vw;
+    margin-left: 89vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+    transition: 0.4s;
+}
+
+.hamburger-menu2 {
+    display: none;
+    width: 8vw;
+    height: 8vw;
+    transition: 0.4s;
+}
+
+.cross {
+    margin-left: 89vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+
+    z-index: 3;
+    display: none;
+    --b: 1vw; /* thickness */
+    --s: 1vw; /* space around */            
+    --c: #CDC8BC;
+    
+    height: 8vw;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 1vw solid var(--c);
+    box-sizing: border-box;
+    --g:conic-gradient(var(--c) 0 0) no-repeat 50%/;
+    background: 
+      var(--g) var(--b) calc(100% - 2*var(--s)),
+      var(--g) calc(100% - 2*var(--s)) var(--b);
+    rotate: 45deg;
+  }
+ 
+.hamburger,  .hamburger1, .hamburger2 {
+    width: 8vw;
+    height: 1vw;
+    background-color: #CDC8BC;
+}
+
 .modelling_and_sculpting {
     color: #CDC8BC;
     font-size: 2vw;
@@ -92,6 +140,14 @@ body ul li {
     margin-top: 4.5vw;
     margin-left: 90vw;
     z-index: 2;
+}
+
+.links {
+    display: block;
+    position: relative;
+    flex-wrap: wrap;
+
+    display: flex;
 }
 
 .about {
@@ -170,6 +226,10 @@ body ul li {
 
     display: flex;
     z-index: 2;
+}
+
+.shadow {
+    display: none;
 }
 
 .menubox2 h1:hover {
