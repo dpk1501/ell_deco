@@ -313,6 +313,20 @@
 
   /* экран для 1280 */
   @media screen and (min-width: 1024px) and (max-width: 1280px) {
+    .img1, .img2, .img01, .img02, .img03, .img04 {
+      background-size: 100% 100%;
+      width: 38vw;
+      height: 28vw;
+      transition: none;
+      }
+      
+      .img1:hover, .img2:hover, .img01:hover, .img02:hover, .img03:hover, .img04:hover{
+      transform: none;
+      }
+
+      .img3:hover, .img4:hover, .img5:hover {
+        transform: none; 
+        }
 
   }
 
@@ -320,9 +334,9 @@
 @media screen and (min-width: 834px) and (max-width: 1024px) {
   .about_studio_text {
     margin-top: 4vw;
-    width: 65vw;
+    width: 60vw;
     color: #CDC8BC;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 600;
 
     z-index: 2;
@@ -330,12 +344,12 @@
 
 .about_studio {
     margin-top: 10vw;
-    width: 80vw;
+    width: 72vw;
     color: #CDC8BC;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 400;
 
-    margin-left: 10vw;
+    margin-left: 13vw;
     z-index: 2;
 }
 
@@ -344,7 +358,7 @@
 }
 
 /* вторая секция */
-.projects {
+/* .projects {
   font-size: 4vw;
 }
 .catalogue, .catalogue1, .catalogue2, .catalogue3, .catalogue4 {
@@ -393,12 +407,12 @@ align-items: center;
 
 margin-top: 7vw;
 
-}
+} */
 
 .img1, .img2, .img01, .img02, .img03, .img04 {
 background-size: 100% 100%;
-width: 85vw;
-height: 60vw;
+width: 38vw;
+height: 28vw;
 transition: none;
 }
 
@@ -406,7 +420,7 @@ transition: none;
 transform: none;
 }
 
-.sculpt_catalogue1, .sculpt_catalogue2, .sculpt_catalogue01, .sculpt_catalogue02 {
+/* .sculpt_catalogue1, .sculpt_catalogue2, .sculpt_catalogue01, .sculpt_catalogue02 {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -414,9 +428,9 @@ transform: none;
   margin-top: 7vw;
   align-items: center;
   gap: 8vw;
-}
+} */
 
-.box3d1, .box3d2, .box3d3 {
+/* .box3d1, .box3d2, .box3d3 {
   width: 65vw;
   height: 95vw;
   display: flex;
@@ -430,7 +444,7 @@ transform: none;
     width: 65vw;
     height: 90vw;
     transition: none;
-  }
+  } */
   .img3:hover, .img4:hover, .img5:hover {
   transform: none; 
   }
@@ -440,178 +454,212 @@ transform: none;
   @media screen and (min-width: 414px) and (max-width: 834px) {
 
     .hamburger-menu {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-      gap: 0.5vw;
-  }
-  
-    .links {
-        display: none;
-        position: absolute;
-        flex-wrap: wrap;
-        z-index: 3;
-    }
-    .lines1, .blue_line {
-      display: none;
-  }
-  
-    .logo {
-      background: url('../images/logo.webp');
-      background-size: 100% 100%;
-      width: 40vw;
-      height: 33vw;
-      position: absolute;
-      margin-top: 40vw;
-      margin-left: 30vw;
-      z-index: 2;
-    }
-  
-    .image_background {
-      height: 90vw;
-    }
-    
-    .modelling_and_sculpting {
-    display: none;
-    }
-  
-    .about {
-      color: #CDC8BC;
-      font-size: 3.5vw;
-      font-weight: 400;
-  
-      margin-left: 65vw;
-      margin-top: 5vw;
-  }
-  
-    .contacts {
-      position: relative;
-      margin-left: 65vw;
-  
-      color: #CDC8BC;
-      font-size: 3.5vw;
-      margin-top: 4vw;
-      z-index: 3;
-    }
-  
-    .shadow {
-      position: absolute;
-      width: 25vw;
-      height: 35vw;
-      z-index: 2;
-      background-color: #2F4F4F;
-      opacity: 0.5;
-  
-      margin-left: 62vw;
-      margin-top: 3vw;
-    }
-  .menubox2 {
-    position: absolute;
-    flex-wrap: wrap;
-    margin-top: 1vw;
-  
-  
     display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+  .links {
+      display: none;
+      position: absolute;
+      flex-wrap: wrap;
+      z-index: 3;
+  }
+  .lines1, .blue_line {
+    display: none;
+}
+
+  .logo {
+    background: url('../images/logo.webp');
+    background-size: 100% 100%;
+    width: 40vw;
+    height: 33vw;
+    position: absolute;
+    margin-top: 40vw;
+    margin-left: 30vw;
     z-index: 2;
   }
-  
-  .sculpting, .models, .video {
-    font-size: 3.5vw;
-    margin-left: 65vw;
-  }
-      
-    .about_studio_text {
-      margin-top: 4vw;
-      width: 65vw;
-      color: #CDC8BC;
-      font-size: 4vw;
-      font-weight: 600;
-  
-      z-index: 2;
-  }
-  
-  .about_studio {
-      margin-top: 10vw;
-      width: 70vw;
-      color: #CDC8BC;
-      font-size: 2.8vw;
-      font-weight: 400;
-  
-      margin-left: 14vw;
-      z-index: 2;
-  }
-  
-  .about_studio p{
-      margin-top: 4vw;
-      line-height: 3.5vw;
-  }
-  
-  /* вторая секция */
-  .projects {
-    font-size: 4vw;
-  }
-  .catalogue, .catalogue1, .catalogue2, .catalogue3, .catalogue4 {
-      display: flex;
-      justify-content: space-around;
-      flex-direction: column;
-  
-      margin-top: 7vw;
-      align-items: center;
-      gap: 8vw;
-  }
-  
-  .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
-    background-size: 100% 100%;
-    width: 65vw;
+
+  .image_background {
     height: 90vw;
-    transition: none;
-  }
-  .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover, .image9:hover {
-  transform: none; 
   }
   
-  .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box3d3, .box3d4  {
-  width: 65vw;
-  height: 95vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  .modelling_and_sculpting {
+  display: none;
   }
-  
-  .description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09, .description10, .description11, .description12, .description_3d01, .description_3d02, .description_3d03, .description_3d04 {
+
+  .about {
+    color: #CDC8BC;
+    font-size: 3.5vw;
+    font-weight: 400;
+
+    margin-left: 65vw;
+    margin-top: 5vw;
+}
+
+  .contacts {
+    position: relative;
+    margin-left: 65vw;
+
+    color: #CDC8BC;
+    font-size: 3.5vw;
+    margin-top: 4vw;
+    z-index: 3;
+  }
+
+  .shadow {
+    position: absolute;
+    width: 25vw;
+    height: 35vw;
+    z-index: 2;
+    background-color: #2F4F4F;
+    opacity: 0.5;
+
+    margin-left: 62vw;
+    margin-top: 3vw;
+  }
+.menubox2 {
+  position: absolute;
+  flex-wrap: wrap;
   margin-top: 1vw;
-  text-align: center;
-  color: #CDC8BC;
-  font-size:  3vw;
-  font-weight: 400;
-  }
-  
-  .sculpt_catalogue, .sculpt_catalogue01, .sculpt_catalogue02, .sculpt_catalogue1, .sculpt_catalogue2 {
+
+
+  display: flex;
+  z-index: 2;
+}
+
+.sculpting, .models, .video {
+  font-size: 3.5vw;
+  margin-left: 65vw;
+}
+    
+  .about_studio_text {
+    margin-top: 4vw;
+    width: 65vw;
+    color: #CDC8BC;
+    font-size: 4vw;
+    font-weight: 600;
+
+    z-index: 2;
+}
+
+.about_studio {
+    margin-top: 10vw;
+    width: 70vw;
+    color: #CDC8BC;
+    font-size: 2.8vw;
+    font-weight: 400;
+
+    margin-left: 14vw;
+    z-index: 2;
+}
+
+.about_studio p{
+    margin-top: 4vw;
+    line-height: 3.5vw;
+}
+
+/* вторая секция */
+.projects {
+  font-size: 4vw;
+}
+.catalogue, .catalogue1, .catalogue2, .catalogue3, .catalogue4 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    margin-top: 7vw;
+    align-items: center;
+    gap: 8vw;
+}
+
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
+  background-size: 100% 100%;
+  width: 65vw;
+  height: 90vw;
+  transition: none;
+}
+.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover, .image9:hover {
+transform: none; 
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box3d3, .box3d4  {
+width: 65vw;
+height: 95vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+}
+
+.description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09, .description10, .description11, .description12, .description_3d01, .description_3d02, .description_3d03, .description_3d04 {
+margin-top: 1vw;
+text-align: center;
+color: #CDC8BC;
+font-size:  3vw;
+font-weight: 400;
+}
+
+.sculpt_catalogue, .sculpt_catalogue01, .sculpt_catalogue02, .sculpt_catalogue1, .sculpt_catalogue2 {
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+gap: 3vw;
+align-items: center;
+
+margin-top: 7vw;
+
+}
+
+.img1, .img2, .img01, .img02,  .img03,  .img04 {
+background-size: 100% 100%;
+width: 80vw;
+height: 55vw;
+transition: none;
+}
+
+.img1:hover, .img2:hover {
+transform: none;
+}
+
+.line01, .line02 {
+  height: 2000vw;
+}
+
+#video {
+  position: relative;
+  width: 80vw;
+  height: 50vw;
+
+  margin-left: 10vw;
+  margin-top: 10vw;
+}
+
+.contacts_box {
+  position: relative;
+
   display: flex;
   justify-content: space-around;
+  gap: 5vw;
   flex-direction: column;
-  gap: 3vw;
-  align-items: center;
-  
-  margin-top: 7vw;
-  
-  }
-  
-  .img1, .img2, .img01, .img02,  .img03,  .img04 {
-  background-size: 100% 100%;
   width: 80vw;
-  height: 55vw;
-  transition: none;
-  }
-  
-  .img1:hover, .img2:hover {
-  transform: none;
-  }
-  
-  .line01, .line02 {
-    height: 2000vw;
-  }
+
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+}
+
+.number, .email {
+  text-decoration: none;
+  color: #CDC8BC;
+  font-size:  5vw;
+  font-weight: 400;
+}
+
+.instagram, .telegram, .whatsapp, .youtube, .facebook {
+  width: 10vw;
+  height: 10vw;
+}
   }
 
 
@@ -790,5 +838,39 @@ transform: none;
 
 .line01, .line02 {
   height: 2000vw;
+}
+
+#video {
+  position: relative;
+  width: 80vw;
+  height: 50vw;
+
+  margin-left: 10vw;
+  margin-top: 10vw;
+}
+
+.contacts_box {
+  position: relative;
+
+  display: flex;
+  justify-content: space-around;
+  gap: 5vw;
+  flex-direction: column;
+  width: 80vw;
+
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+}
+
+.number, .email {
+  text-decoration: none;
+  color: #CDC8BC;
+  font-size:  5vw;
+  font-weight: 400;
+}
+
+.instagram, .telegram, .whatsapp, .youtube, .facebook {
+  width: 10vw;
+  height: 10vw;
 }
 }
