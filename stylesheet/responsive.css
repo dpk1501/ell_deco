@@ -652,7 +652,7 @@ transform: none;
     gap: 8vw;
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13 {
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
   background-size: 100% 100%;
   width: 65vw;
   height: 90vw;
@@ -662,7 +662,7 @@ transform: none;
 transform: none; 
 }
 
-.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13  {
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box3d3, .box3d4  {
 width: 65vw;
 height: 95vw;
 display: flex;
@@ -671,7 +671,7 @@ align-items: center;
 flex-direction: column;
 }
 
-.description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09, .description10, .description11, .description12 {
+.description01, .description02, .description03, .description04, .description05, .description06, .description07, .description08, .description09, .description10, .description11, .description12, .description_3d01, .description_3d02, .description_3d03, .description_3d04 {
 margin-top: 1vw;
 text-align: center;
 color: #CDC8BC;
@@ -679,7 +679,7 @@ font-size:  3vw;
 font-weight: 400;
 }
 
-.sculpt_catalogue {
+.sculpt_catalogue, .sculpt_catalogue01, .sculpt_catalogue02, .sculpt_catalogue1, .sculpt_catalogue2 {
 display: flex;
 justify-content: space-around;
 flex-direction: column;
@@ -690,10 +690,10 @@ margin-top: 7vw;
 
 }
 
-.img1, .img2 {
+.img1, .img2, .img01, .img02,  .img03,  .img04 {
 background-size: 100% 100%;
-width: 85vw;
-height: 60vw;
+width: 80vw;
+height: 55vw;
 transition: none;
 }
 
@@ -702,6 +702,32 @@ transform: none;
 }
 
 .line01, .line02 {
-  height: 1900vw;
+  height: 2000vw;
 }
+}
+
+#video {
+  position: relative;
+  width: 80vw;
+  height: 50vw;
+
+  margin-left: 10vw;
+  margin-top: 10vw;
+}
+
+.contacts_box {
+  margin-top: 10vw;
+  margin-bottom: 5vw;
+}
+
+.number, .email {
+  text-decoration: none;
+  color: #CDC8BC;
+  font-size:  4vw;
+  font-weight: 400;
+}
+
+.instagram, .telegram, .whatsapp, .youtube, .facebook {
+  width: 10vw;
+  height: 10vw;
 }
