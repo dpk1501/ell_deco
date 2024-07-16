@@ -576,7 +576,7 @@ transform: none;
 
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
   background-size: 100% 100%;
-  width: 65vw;
+  width: 62vw;
   height: 90vw;
   transition: none;
 }
@@ -789,7 +789,7 @@ transform: none;
 
 .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
   background-size: 100% 100%;
-  width: 65vw;
+  width: 60vw;
   height: 90vw;
   transition: none;
 }
