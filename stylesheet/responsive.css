@@ -12,53 +12,7 @@
         font-size: 1.4vw;
     }
   
-    .hamburger-menu {
-      display: none;
-      width: 8vw;
-      height: 8vw;
-      margin-left: 89vw;
-      margin-top: 3vw;
-      margin-bottom: 2vw;
-      transition: 0.4s;
-  }
-  
-  .hamburger-menu2 {
-      display: none;
-      width: 8vw;
-      height: 8vw;
-      transition: 0.4s;
-  }
-  
-  .cross {
-      margin-left: 89vw;
-      margin-top: 3vw;
-      margin-bottom: 2vw;
-  
-      z-index: 3;
-      display: none;
-      --b: 1vw; /* thickness */
-      --s: 1vw; /* space around */            
-      --c: #CDC8BC;
-      
-      height: 8vw;
-      aspect-ratio: 1;
-      border-radius: 50%;
-      border: 1vw solid var(--c);
-      box-sizing: border-box;
-      --g:conic-gradient(var(--c) 0 0) no-repeat 50%/;
-      background: 
-        var(--g) var(--b) calc(100% - 2*var(--s)),
-        var(--g) calc(100% - 2*var(--s)) var(--b);
-      rotate: 45deg;
-    }
-   
-  .hamburger,  .hamburger1, .hamburger2 {
-      width: 8vw;
-      height: 1vw;
-      background-color: #CDC8BC;
-  }
-  
-  .modelling_and_sculpting {
+    .modelling_and_sculpting {
       color: #CDC8BC;
       font-size: 2vw;
       font-weight: 400;
@@ -308,8 +262,7 @@
 
   /* экран для 1440 */
 @media screen and (min-width: 1280px) and (max-width: 1440px) {
-
-  }
+}
 
   /* экран для 1280 */
   @media screen and (min-width: 1024px) and (max-width: 1280px) {
@@ -319,14 +272,14 @@
       height: 28vw;
       transition: none;
       }
-      
+/*       
       .img1:hover, .img2:hover, .img01:hover, .img02:hover, .img03:hover, .img04:hover{
       transform: none;
       }
 
       .img3:hover, .img4:hover, .img5:hover {
         transform: none; 
-        }
+        } */
 
   }
 
@@ -416,9 +369,9 @@ height: 28vw;
 transition: none;
 }
 
-.img1:hover, .img2:hover, .img01:hover, .img02:hover, .img03:hover, .img04:hover{
+/* .img1:hover, .img2:hover, .img01:hover, .img02:hover, .img03:hover, .img04:hover{
 transform: none;
-}
+} */
 
 /* .sculpt_catalogue1, .sculpt_catalogue2, .sculpt_catalogue01, .sculpt_catalogue02 {
   display: flex;
@@ -445,9 +398,14 @@ transform: none;
     height: 90vw;
     transition: none;
   } */
-  .img3:hover, .img4:hover, .img5:hover {
+  /* .img3:hover, .img4:hover, .img5:hover {
   transform: none; 
-  }
+  } */
+
+  .number a {
+    text-decoration: none;
+    color: #CDC8BC;
+}
   }
 
   /* экран для 834 */
@@ -574,7 +532,7 @@ transform: none;
     gap: 8vw;
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
+/* .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
   background-size: 100% 100%;
   width: 59vw;
   height: 90vw;
@@ -582,7 +540,7 @@ transform: none;
 }
 .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover, .image9:hover {
 transform: none; 
-}
+} */
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box3d3, .box3d4  {
 width: 65vw;
@@ -618,10 +576,10 @@ width: 80vw;
 height: 55vw;
 transition: none;
 }
-
+/* 
 .img1:hover, .img2:hover {
 transform: none;
-}
+} */
 
 .line01, .line02 {
   height: 2000vw;
@@ -660,6 +618,12 @@ transform: none;
   width: 10vw;
   height: 10vw;
 }
+
+.number a {
+  text-decoration: none;
+  color: #CDC8BC;
+}
+
   }
 
 
@@ -793,9 +757,9 @@ transform: none;
   height: 90vw;
   transition: none;
 }
-.image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover, .image9:hover {
+/* .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover, .image9:hover {
 transform: none; 
-}
+} */
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box3d3, .box3d4  {
 width: 65vw;
@@ -832,9 +796,9 @@ height: 55vw;
 transition: none;
 }
 
-.img1:hover, .img2:hover {
+/* .img1:hover, .img2:hover {
 transform: none;
-}
+} */
 
 .line01, .line02 {
   height: 2000vw;
@@ -872,5 +836,10 @@ transform: none;
 .instagram, .telegram, .whatsapp, .youtube, .facebook {
   width: 10vw;
   height: 10vw;
+}
+
+.number a {
+  text-decoration: none;
+  color: #CDC8BC;
 }
 }
