@@ -529,7 +529,7 @@ transform: none;
     gap: 8vw;
 }
 
-/* .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
+.image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8, .image9, .image10, .image11, .image12, .image13, .img3, .img4, .img5, .img6 {
   background-size: 100% 100%;
   width: 59vw;
   height: 90vw;
@@ -537,7 +537,7 @@ transform: none;
 }
 .image1:hover, .image2:hover, .image3:hover, .image4:hover, .image5:hover, .image6:hover, .image7:hover, .image8:hover, .image9:hover {
 transform: none; 
-} */
+} 
 
 .box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10, .box11, .box12, .box13, .box3d3, .box3d4  {
 width: 65vw;
